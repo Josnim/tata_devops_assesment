@@ -3,3 +3,6 @@ __pycache__/
 .pytest_cache/
 .terraform/
 terraform.tfstate*" | Out-File -Encoding ascii .gitignore
+.terraform/
+terraform.tfstate*
+.terraform.lock.hcl
